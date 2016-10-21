@@ -1,0 +1,222 @@
+@import url("../css/reset.css");
+
+html,body,.container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+a,img{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+html{
+	font-size:625%;
+}
+body{
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+}
+
+.container{
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+
+.header{
+	width:100%;
+	height:38px;
+	background-image:-webkit-linear-gradient(top,#222127,#383D43);
+	position: relative;
+	color: #fff;
+}
+	.header span:nth-of-type(1){
+		position: absolute;
+		left: 10px;
+		line-height: .38rem;
+		font-size: 12px;
+	}
+	.header span:nth-of-type(2){
+		position: absolute;
+		right: 10px;
+		top: 0;
+		line-height: .38rem;
+	}
+	.header h2{
+		text-align: center;
+		line-height: .38rem;
+	}
+
+.main{
+	-webkit-flex:1;
+	width:100%;
+	height:100%;
+}
+	.main .banner{
+		width: 100%;
+		height: auto;
+	}
+		.main .banner img{
+			width: 100%;
+			height: 100%;
+		}
+
+	.main nav{
+		display: -webkit-flex;
+		width: 100%;
+		height: .87rem;
+		background:#F1F4F9;
+		border-bottom: 1px solid #DDDDDF;
+	}
+		.main nav section{
+			-webkit-flex:1;
+			padding-top: 16px;
+		}
+		.main nav section:nth-of-type(2) span{
+			background:#86498E;
+		}
+		.main nav section:nth-of-type(3) span{
+			background:#EC4B14;
+		}
+		.main nav section:nth-of-type(4) span{
+			background:#84B82F;
+		}
+		.main nav section span{
+			width: .38rem;
+			height: .38rem;
+			background:#3E8ADE;
+			border-radius: .19rem;
+			display: block;
+			margin:auto;
+			color: #fff;
+			text-align: center;
+			line-height: .38rem;
+		}
+		.main nav section p{
+			text-align: center;
+			font-size: 10px;
+			color: #5A5B5F;
+		}
+
+	.main .myform{
+		width: 100%;
+		padding-left: 15px;
+	}
+		.main .myform p{
+			width: 100%;
+			height: 42px;
+			border-bottom:1px solid #eee;	
+			line-height: 42px;
+			display: -webkit-flex;
+			position: relative;
+		}
+			.main .myform p label{
+				font-size: 12px;
+				width: 65px;
+			}
+			.main .myform p input{
+				-webkit-flex:1;
+				border:none;
+				outline: none;
+			}
+			.main .myform p .chevron{
+				font-size: 10px;
+				color: #999;
+				line-height: 42px;
+				padding-right: 10px;
+				position: absolute;
+				right: 10px;
+				top: 0px;
+			}
+			.please{
+				font-size: 12px;
+				color: #9E9E9E;
+				
+			}
+
+.footer{
+	width:100%;
+	height:41px;
+	display: -webkit-flex;
+}
+	.footer section:nth-of-type(1){
+		-webkit-flex:1;
+		text-align: center;
+		line-height: 41px;
+		color: #fff;
+		background:#FF6600;
+		height: 100%;
+	}
+	.footer section:nth-of-type(2){
+		width: 46px;
+		height: 100%;
+		background:url(../img/call.jpg);
+		background-size: 100% 100%;
+	};
+
+body{
+	position: relative;
+}
+.mark{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background:rgba(0,0,0,.5);
+}
+.Scontainer{
+	width: 100%;
+	height: 235px;
+	background:#fff;
+	position: absolute;
+	bottom: -50%;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+	-webkit-transition:all .4s;
+}
+	.pleaseCT{
+		width: 100%;
+		height: 33px;
+		background:#383838;
+		color: #fff;
+	}
+		.pleaseCT span{
+			position: absolute;
+			line-height: 33px;
+			color: #26A4FF;
+			font-size: 12px;
+		}
+			.pleaseCT span:nth-of-type(1){
+				left: 10px;
+			}
+			.pleaseCT span:nth-of-type(2){
+				right: 10px;
+				top: 0;
+			}
+			.pleaseCT h3{
+				text-align: center;
+				line-height: 33px;
+			}
+
+	.pleaseC{
+		-webkit-flex:1;
+		overflow: hidden;
+		font-size: 12px;
+	}
+		.slide{
+			text-align: center;
+			line-height: 40px;
+			width: 100%;
+			height: 40px;
+		}
+		.twoLine{
+			width: 100%;
+			height: 40px;
+			border-top: 1px solid #0065D1;
+			border-bottom: 1px solid #0065D1;
+			position: absolute;
+			top: 114px;
+		}
+		.slideblue{
+			color: #0065D1;
+		}
